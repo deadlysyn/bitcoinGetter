@@ -1,0 +1,96 @@
+
+* {
+    box-sizing: border-box;
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    font-family: monospace;
+    font-size: 3.5vw;
+    margin: 40px 0;
+    text-align: center;
+}
+
+ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    width: 100%;
+}
+
+li {
+    border-radius: 8px;
+    font-weight: 700;
+    margin: 0 50px;
+    padding: 20px 80px;
+}
+
+li:hover {
+    color: #fff;
+    transition: 0.25s all linear;
+}
+
+#btnXHR {
+    border: 1px solid red;
+}
+
+#btnXHR:hover {
+    background-color: red;
+}
+
+#btnFetch {
+    border: 1px solid orange;
+}
+
+#btnFetch:hover {
+    background-color: orange;
+}
+
+#btnJquery {
+    border: 1px solid green;
+}
+
+#btnJquery:hover {
+    background-color: green;
+}
+
+#btnAxios {
+    border: 1px solid blue;
+}
+
+#btnAxios:hover {
+    background-color: blue;
+}
+
+#price {
+    font-size: 18px;
+    margin: 40px 0;
+    text-align: center;
+}
+
+@media screen and (max-width: 1200px) {
+    li {
+        margin: 0 25px;
+        padding: 20px 50px;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    ul {
+        flex-wrap: wrap;
+    }
+    li {
+        flex-basis: 80%;
+        margin: 10px;
+        text-align: center;
+    }
+    form {
+        margin-bottom: 20px;
+    }
+    input {
+        margin-left: 10px;
+        margin-right: 5px;
+    }
+}
